@@ -14,7 +14,7 @@
 /* header start here  */
 
 header {
-    background-image: url("../images/banner/banner1.png");
+    background-image: url("/images/banner/banner1.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 280px;
