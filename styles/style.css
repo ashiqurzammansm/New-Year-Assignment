@@ -1,0 +1,318 @@
+/* common title start here  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* common title end here  */
+
+
+/* header start here  */
+
+header {
+    background-image: url("/images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 280px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.header {
+    position: absolute;
+    right: 0;
+    left: 45%;
+    top: 130px;
+    padding: 0 50px;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-content {
+    align-self: end;
+}
+
+.header-title {
+    font-size: 38px;
+}
+
+.header-para {
+    color: #757575;
+}
+
+.header-btn {
+    align-self: start;
+    padding: 15px 15px;
+    background-color: rgb(255, 99, 71);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+/* header end  here  */
+
+
+/* main start here  */
+
+
+/* my future start here  */
+
+.my-futures-section {
+    margin: 150px 100px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.my-futures-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.my-futures-right-title {
+    font-size: 30px;
+}
+
+.my-futures-right-para {
+    color: #757575;
+}
+
+.my-futures ul li {
+    list-style-type: none;
+    color: #757575;
+    margin: 5px 0;
+}
+
+ul li i {
+    color: green;
+    margin-right: 5px;
+}
+
+
+/* my future end here  */
+
+
+/* my team start here  */
+
+.my-team-section {
+    text-align: center;
+    margin: 150px 0px;
+}
+
+.my-team-dec {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.my-team-title {
+    font-size: 35px;
+}
+
+.my-team-para {
+    color: #757575;
+}
+
+.team-cards {
+    margin: 0 150px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-card {
+    width: 20%;
+    height: auto;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.team-card-img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team-card-para {
+    color: #757575;
+}
+
+
+/* my team end here  */
+
+
+/* my plan start here  */
+
+.my-plans {
+    text-align: center;
+    margin: 0 150px;
+    margin-bottom: 120px;
+}
+
+.my-plans-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.my-plans-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.my-plans-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.my-plans-card img {
+    margin: 0 auto;
+    width: 100px;
+}
+
+.card-title {
+    font-size: 26px;
+}
+
+.card-para {
+    color: #757575;
+}
+
+
+/* my plan end here  */
+
+
+/* gradiand section start here  */
+
+.gradiand-section {
+    margin: 0 150px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.gradiand {
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("../images/watch.png");
+    width: 80%;
+    height: 200px;
+    border-radius: 6px;
+    padding: 20px 50px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+.gradiand-title {
+    font-size: 35px;
+    color: rgb(248, 240, 240);
+}
+
+.gradiand-btn {
+    padding: 18px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(248, 240, 240);
+    color: rgb(248, 91, 63);
+    align-self: flex-start;
+    margin-right: 20px;
+}
+
+
+/* gradiand section start here  */
+
+
+/* main end here  */
+
+
+/* footer start here  */
+
+footer {
+    background-color: rgb(12, 12, 12);
+    color: rgb(251, 244, 244);
+}
+
+.footer-section {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.footer-section-left {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.footer-section-left-title {
+    font-size: 35px;
+}
+
+.footer-section-left-para,
+.contact-email,
+.contact-phone {
+    color: #d2c3c3;
+}
+
+.footer-left-icons {
+    display: flex;
+    align-self: start;
+}
+
+.footer-left-icons img {
+    padding: 12px;
+    padding-left: 0;
+}
+
+.footer-section-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-section-right-title {
+    font-size: 25px;
+}
+
+.footer-section-right input {
+    color: #d2c3c3;
+    outline-style: none;
+    padding: 8px;
+    width: 200px;
+    background-color: rgb(10, 2, 2);
+    border-radius: 6px;
+}
+
+.footer-section-right .btn {
+    align-self: flex-start;
+    padding: 14px;
+    background-color: rgb(233, 223, 223);
+    color: rgb(252, 104, 78);
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+}
+
+
+/* footer end here  */
